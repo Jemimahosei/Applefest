@@ -20,14 +20,14 @@ Place all design journey images inside the "design-plan" folder and then link th
 ### Project (Milestone 1)
 > Which project will you add interactivity to enhance the site's functionality?
 
-Project (TODO: 1 or 2)
+> I will be working on Project (2)
 
 
 ### Audience (Milestone 1)
 > Briefly explain your site's audience. (1-2 sentences)
 > Be specific and justify why this audience is a **cohesive** group.
 
-TODO: site's _cohesive_ audience
+> The target audience for my website comprises college students residing in Ithaca. Through interviews, it was discovered that both  a junior from Ithaca College and a sophomore from Cornell University share a common interest in apples. Their enthusiasm for everything related to apples motivated them to attend the festival, where they aim to explore the different apple varieties and other offerings.
 
 
 ### Audience's Goals (Milestone 1)
@@ -35,9 +35,10 @@ TODO: site's _cohesive_ audience
 > Simply list each goal. No need to include the "Design Ideas and Choices", etc.
 > You may adjust the goals if necessary.
 
-- TODO: goal 1
-- TODO: goal 2
-- TODO: ...
+- Goal 1: partake in and enjoy activites
+- Goal 2:purchase apples and other goods
+- Goal 3:socialize and enjoy food
+
 
 
 ## Interactivity Design (Milestone 1)
@@ -47,9 +48,12 @@ TODO: site's _cohesive_ audience
 > Briefly explain each idea and provide a brief rationale for how the interactivity enhances the site's functionality for the audience. (1 sentence)
 > Note: You may find it easier to sketch for brainstorming. That's fine too. Do whatever you need to do to explore your ideas.
 
-- TODO: idea 1
-- TODO: idea 2
-- TODO: ...
+
+> - Event/Activity Planner:  Allow users to create personalized schedules by selecting the activities they're interested in attending. This helps them maximize their enjoyment of the festival by ensuring they don't miss out on any preferred activities.
+
+> - Social Meetup Board: Implement a virtual bulletin board where users can post and join meetups with other attendees interested in socializing. This encourages connections between users with similar interests and enhances their overall festival experience.
+
+
 
 
 ### Interactivity Design Ideation (Milestone 1)
@@ -57,8 +61,10 @@ TODO: site's _cohesive_ audience
 > Sketch at least two iterations of the modal and at least two iterations of the hamburger menu interactivity.
 > Annotate each sketch explaining what happens when a user takes an action. (e.g. When user clicks this, something else appears.)
 
-TODO: design sketches
+![modal iterations](modal-iterations.jpeg)
 
+
+![hamburger iterations](hamburger-iterations.jpeg)
 
 ### Final Interactivity Design Sketches (Milestone 1)
 > Create _polished_ sketch(es) (it's still a sketch, but with a little more care taken to communicate ideas clearly to the graders) to plan your interactivity.
@@ -68,20 +74,17 @@ TODO: design sketches
 > Include as many sketches as necessary to communicate your design (ask yourself, could another 1300 take these sketches an implement my design?)
 
 **Modal design sketches:**
-
-TODO: final design sketch(es)
+![final modal](modal-final.jpeg)
 
 **Hamburger drop-down navigation menu design sketches:**
-
-TODO: final design sketch(es)
-
+![final hamburger](hamburger-final.jpeg)
 
 ### Interactivity Rationale (Milestone 1)
 > Describe the purpose of your proposed interactivity.
 > Provide a brief rationale explaining how your proposed interactivity addresses the goals of your site's audience.
 > This should be about a paragraph. (2-4 sentences)
 
-TODO: design rationale
+>The proposed hamburger menu interactivity aims to enhance user experience for the narrow form of the Apple Festival page by decluttering the interface and providing easy access to navigation options when needed. This design solution ensures that users can navigate the festival website efficiently, aligning with their goals of partaking in activities, purchasing goods, and socializing. Additionally, the modal interactivity fosters the audience's goal of meeting new people by providing a convenient way for users to join a group chat of like-minded individuals directly from the homepage. Together, these interactivities contribute to a seamless and engaging experience for attendees of the festival.
 
 
 ## Interactivity Implementation Plan (Milestone 1)
@@ -92,12 +95,11 @@ TODO: design rationale
 
 **Modal planning sketches:**
 
-TODO: planning sketch(es)
+![modal planning](modal-planning.jpeg)
 
 **Hamburger drop-down navigation menu planning sketches:**
 
-TODO: planning sketch(es)
-
+![hamburger planning](hamburger-planning.jpeg)
 
 ### Interactivity Pseudocode Plan (Milestone 1)
 > Write your interactivity pseudocode plan here.
@@ -106,38 +108,42 @@ TODO: planning sketch(es)
 **Modal pseudocode:**
 
 Open the modal:
-
 ```
-TODO: pseudocode
+ When the user clicks on the modal button (#mmeet):
+ Remove the .hidden class from the modal overlay (#modal) to display it
 ```
 
 Close the modal:
+```
+When the user clicks on the exit button inside the modal (#eexit):
+Add the .hidden class to the modal overlay (#modal) to hide it
+```
 
-```
-TODO: pseudocode
-```
 
 **Hamburger menu pseudocode:**
 
 Pseudocode to show/hide (toggle) the navigation menu (narrow screens):
+```
+ When the user clicks on the hamburger menu button (#hbutton):
+    If the navigation menu (#navmenu) has the .hidden class:
+        Remove the .hidden class from the navigation menu to show it
+    Else:
+        Add the .hidden class to the navigation menu to hide it with animation.
 
 ```
-TODO: pseudocode
-```
-
 Pseudocode to hide the hamburger button and show the navigation bar when the window is resized too wide:
-
 ```
-TODO: pseudocode
+When the window width is greater than a certain threshold (>600px):
+Add the .hidden class to the hamburger menu button (#hbutton).
+Remove the .hidden class from the navigation bar (#navmenu) if it's hidden.
 ```
 
 Pseudocode to show the hamburger button and hide the navigation menu when the window is resized too narrow:
-
 ```
-TODO: pseudocode
+When the window width is less than a certain threshold (>600px):
+    Remove the .hidden class from the hamburger menu button (#hbutton).
+    Add the .hidden class to the navigation bar (#navmenu) if it's visible.
 ```
-
-
 ## Grading (Final Submission)
 
 ### Interactivity Usability Justification (Final Submission)

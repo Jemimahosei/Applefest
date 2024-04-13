@@ -1,0 +1,321 @@
+body {
+  font-family: Verdana, Arial, serif;
+  font-size: 100%;
+  background-color: teal;
+  color: azure;
+  margin: 0;
+}
+
+.home-image {
+  width: 85%;
+  height: auto;
+  justify-content: space-around;
+}
+
+.main-box {
+  width: 100%;
+  height: auto;
+
+}
+
+.foot {
+  display: flex;
+  flex-direction: row;
+  background-color: azure;
+  color: black;
+  justify-content: center;
+}
+
+
+.second-box {
+  width: 100%;
+  height: auto;
+}
+
+
+.third-box {
+  width: 100%;
+  height: auto;
+}
+
+.head-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* Align items vertically */
+  justify-content: space-between;
+  /* Space items evenly horizontally */
+  background-color: rgb(118, 165, 42);
+}
+
+.head-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* Align items vertically */
+  background-color: rgb(118, 165, 42);
+  justify-content: space-between;
+}
+
+.head-nav img {
+  max-width: 100%;
+  height: auto;
+}
+
+.head-nav nav ul {
+  list-style-type: none;
+  /* Remove default list styles */
+  padding: 0;
+  /* Remove default padding */
+  margin: 0;
+  /* Remove default margin */
+  margin-right: 20px;
+  /* Add some space between list items */
+}
+
+
+
+a {
+  color: rgb(87, 68, 33);
+  /* Changes the color of all links to blue */
+  text-decoration: none;
+  /* Removes underlines from all links */
+}
+
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+.head-nav nav ul li {
+  margin-right: 20px;
+  /* Add some space between list items */
+}
+
+
+.foot nav ul li {
+  margin-left: 10em;
+  color: brown;
+}
+
+
+.head-nav nav ul li:last-child {
+  margin-right: 0;
+  /* Remove margin from the last list item */
+}
+
+
+
+
+.content-container {
+  display: flex;
+}
+
+
+
+.frequently {
+  width: 15%;
+  justify-content: right;
+  padding: 20px;
+}
+
+.head-nav nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.head-nav nav ul li {
+  display: inline;
+
+}
+
+.frequently h3 {
+  margin-bottom: 15px;
+  /* Add spacing below the FAQ title */
+}
+
+
+.main-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.dine-image-one"{
+ max-width: 100%;
+height: auto;
+
+}
+
+.first-box,
+.second-box {
+  flex-direction: row;
+  flex: 1;
+  /* Both boxes will take equal width */
+  padding: 20px;
+  /* Add padding for spacing */
+  width: 100%;
+}
+
+.content-container {
+  display: flex;
+}
+
+.frequently {
+  width: 30%;
+  /* Set width for the sidebar */
+  padding: 20px;
+}
+
+.box-one-two {
+  display: flex;
+
+
+}
+
+.first-box,
+.second-box {
+  flex: 1;
+  /* Each box will take up equal width */
+  padding: 20px;
+  /* Add padding for spacing */
+}
+
+.frequently {
+  width: 30%;
+  /* Set width for the sidebar */
+  padding: 20px;
+}
+
+.first-box {
+  display: flex;
+  /* Use flexbox to make the contents lie side by side */
+  align-items: center;
+  /* Align items vertically */
+}
+
+.dine-image-one {
+  flex: 1;
+  /* Make the image take up remaining space */
+  max-width: 100%;
+  /* Ensure the image doesn't exceed container width */
+  height: auto;
+  margin-right: 20px;
+  /* Add spacing between image and text */
+}
+
+.third-box {
+  display: flex;
+  align-items: center;
+}
+
+.shop-image-three {
+  flex: 1;
+  /* Make the image take up remaining space */
+  max-width: 100%;
+  /* Ensure the image doesn't exceed container width */
+  height: auto;
+  margin-right: 20px;
+  /* Add spacing between image and text */
+}
+
+}
+
+.second-box {
+  display: flex;
+  /* Use flexbox to make the contents lie side by side */
+  align-items: center;
+  /* Align items vertically */
+}
+
+.dine-image-two {
+  flex: 1;
+  /* Make the image take up remaining space */
+  max-width: 100%;
+  /* Ensure the image doesn't exceed container width */
+  height: auto;
+  margin-right: 20px;
+  /* Add spacing between image and text */
+}
+
+
+text-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.first-box-text {
+  margin-bottom: 20px;
+  /* Add spacing between text elements */
+}
+
+/* Style for text in second box */
+.second-box-text {
+  margin-bottom: 20px;
+  /* Add spacing between text elements */
+}
+
+.third-box-text {
+  margin-bottom: 20px;
+}
+
+.foot-dine nav ul li {
+
+  margin-left: 10em;
+  color: brown;
+}
+
+.foot-dine {
+  display: flex;
+  flex-direction: row;
+  background-color: azure;
+  color: black;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+/* Media queries */
+@media (max-width: 900px){
+    .frequently,
+    .main-box,
+    .second-box,
+    .third-box {
+      width: 100%;
+    }
+
+    .first-box,
+    .second-box,
+    .third-box {
+      flex-direction: column;
+    }
+
+    .first-box,
+    .dine-image-one,
+    .shop-image-three,
+    .dine-image-two {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+
+    .foot-dine nav ul li {
+      margin-left: 0;
+      padding: 1.5em;
+    }
+
+
+    body {
+      background-color:darkred; /* Change background color for narrow view */
+
+    }
