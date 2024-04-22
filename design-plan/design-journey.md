@@ -140,7 +140,7 @@ Remove the .hidden class from the navigation bar (#navmenu) if it's hidden.
 
 Pseudocode to show the hamburger button and hide the navigation menu when the window is resized too narrow:
 ```
-When the window width is less than a certain threshold (>600px):
+When the window width is less than a certain threshold (<600px):
     Remove the .hidden class from the hamburger menu button (#hbutton).
     Add the .hidden class to the navigation bar (#navmenu) if it's visible.
 ```
@@ -150,7 +150,7 @@ When the window width is less than a certain threshold (>600px):
 > Explain how your design effectively uses affordances, visibility, feedback, and familiarity.
 > Write a paragraph (3-5 sentences)
 
-TODO: interactivity rationale
+>The design effectively utilizes affordances, visibility, feedback, and familiarity to enhance user experience. Visibility is prioritized by centering the modal and positioning the hamburger menu in a familiar location, ensuring easy noticeability for users. Affordances are clearly conveyed through the hamburger icon being recognized as a button and the modal resembling a dialog box, indicating interactability. The design maintains familiarity by adhering to general design patterns and functionalities. Feedback mechanisms are incorporated, ensuring users receive responses to their actions when interacting with buttons, thereby providing reassurance and guidance throughout their navigation.
 
 
 ### Tell Us What to Grade (Final Submission)
@@ -159,28 +159,32 @@ TODO: interactivity rationale
 > Tell us where (what pages) we can find your interactivity and how to use it.
 > **We will only grade what you list here;** if it's not listed, we won't grade it.
 
-TODO: what should we grade
+
+- hamburger menu on all pages
+- modal pops up  when the  "click here" button on the  home page.the modal mainly contain a group link for users to communicate
+
 
 
 ### Collaborators (Final Submission)
 > List any persons you collaborated with on this project.
 
-TODO: list your collaborators
 
+>Myself and my TA's
 
 ### Reference Resources (Final Submission)
 > Please cite any external resources you referenced in the creation of your project.
 > (i.e. W3Schools, StackOverflow, Mozilla, etc.)
 
-TODO: list reference resources
-
+> Introductory Interactivity JavaScript Snippets documentation
 
 ### Self-Reflection (Final Submission)
 > This was the first project in this class where you coded some JavaScript. What did you learn from this experience?
 
-TODO: self-reflection
+
+>little details are important and should not be overlooked
 
 
 > Take some time here to reflect on how much you've learned since you started this class. It's often easy to ignore our own progress. Take a moment and think about your accomplishments in this class. Hopefully you'll recognize that you've accomplished a lot and that you should be very proud of those accomplishments!
 
-TODO: self-reflection
+
+>this milestone was very challenging for me i'm glad i got it done

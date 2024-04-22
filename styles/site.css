@@ -1,44 +1,60 @@
+@media (min-width: 600px){
 body {
   font-family: Verdana, Arial, serif;
   font-size: 100%;
   background-color: teal;
   color: azure;
   margin: 0;
-}
+  }
 
-.home-image {
+
+  .home-image {
   width: 85%;
   height: auto;
   justify-content: space-around;
-}
+  }
 
-.main-box {
+
+  .main-box {
   width: 100%;
   height: auto;
 
-}
 
-.foot {
+  }
+
+
+  .foot {
   display: flex;
   flex-direction: row;
   background-color: azure;
   color: black;
   justify-content: center;
-}
+  }
+
+  .home-image,
+  .main-box,.second-box,
+  .third-box{
+    flex: 1;
+    padding: 20px;
+  }
 
 
-.second-box {
+
+  .second-box {
   width: 100%;
   height: auto;
-}
+  }
 
 
-.third-box {
+
+
+  .third-box {
   width: 100%;
   height: auto;
-}
+  }
 
-.head-nav {
+
+  .head-nav {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -46,23 +62,26 @@ body {
   justify-content: space-between;
   /* Space items evenly horizontally */
   background-color: rgb(118, 165, 42);
-}
+  }
 
-.head-nav {
+
+  .head-nav {
   display: flex;
   flex-direction: row;
   align-items: center;
   /* Align items vertically */
   background-color: rgb(118, 165, 42);
   justify-content: space-between;
-}
+  }
 
-.head-nav img {
+
+  .head-nav img {
   max-width: 100%;
   height: auto;
-}
+  }
 
-.head-nav nav ul {
+
+  .head-nav nav ul {
   list-style-type: none;
   /* Remove default list styles */
   padding: 0;
@@ -71,22 +90,27 @@ body {
   /* Remove default margin */
   margin-right: 20px;
   /* Add some space between list items */
-}
+  }
 
 
 
-a {
+
+
+
+  a {
   color: rgb(87, 68, 33);
   /* Changes the color of all links to blue */
   text-decoration: none;
   /* Removes underlines from all links */
-}
+  }
 
 
-nav ul {
+
+
+  nav ul {
   display: flex;
   flex-direction: row;
-}
+  }
 
 
 
@@ -96,114 +120,152 @@ nav ul {
 
 
 
-.head-nav nav ul li {
+
+
+
+
+
+
+
+
+
+  .head-nav nav ul li {
   margin-right: 20px;
   /* Add some space between list items */
-}
+  }
 
 
-.foot nav ul li {
+
+
+  .foot nav ul li {
   margin-left: 10em;
   color: brown;
-}
+  }
 
 
-.head-nav nav ul li:last-child {
+
+
+  .head-nav nav ul li:last-child {
   margin-right: 0;
   /* Remove margin from the last list item */
-}
+  }
 
 
 
 
-.content-container {
+
+
+
+
+  .content-container {
   display: flex;
-}
+  }
 
 
 
-.frequently {
+
+
+
+  .frequently {
   width: 15%;
   justify-content: right;
   padding: 20px;
-}
+  }
 
-.head-nav nav ul {
+
+  .head-nav nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
+  }
 
-.head-nav nav ul li {
+
+  .head-nav nav ul li {
   display: inline;
 
-}
 
-.frequently h3 {
+  }
+
+
+  .frequently h3 {
   margin-bottom: 15px;
   /* Add spacing below the FAQ title */
-}
+  }
 
 
-.main-box img {
+
+
+  .main-box img {
   max-width: 100%;
   height: auto;
-}
+  }
 
-.dine-image-one"{
- max-width: 100%;
-height: auto;
 
-}
+  .dine-image-one"{
+  max-width: 100%;
+  height: auto;
 
-.first-box,
-.second-box {
+
+  }
+
+
+  .first-box,
+  .second-box {
   flex-direction: row;
   flex: 1;
   /* Both boxes will take equal width */
   padding: 20px;
   /* Add padding for spacing */
   width: 100%;
-}
+  }
 
-.content-container {
+
+  .content-container {
   display: flex;
-}
+  }
 
-.frequently {
+
+  .frequently {
   width: 30%;
   /* Set width for the sidebar */
   padding: 20px;
-}
+  }
 
-.box-one-two {
+
+  .box-one-two {
   display: flex;
 
 
-}
 
-.first-box,
-.second-box {
+
+  }
+
+
+  .first-box,
+  .second-box {
   flex: 1;
   /* Each box will take up equal width */
   padding: 20px;
   /* Add padding for spacing */
-}
+  }
 
-.frequently {
+
+  .frequently {
   width: 30%;
   /* Set width for the sidebar */
   padding: 20px;
-}
+  }
 
-.first-box {
+
+  .first-box {
   display: flex;
   /* Use flexbox to make the contents lie side by side */
   align-items: center;
   /* Align items vertically */
-}
+  }
 
-.dine-image-one {
+
+  .dine-image-one {
   flex: 1;
   /* Make the image take up remaining space */
   max-width: 100%;
@@ -211,14 +273,16 @@ height: auto;
   height: auto;
   margin-right: 20px;
   /* Add spacing between image and text */
-}
+  }
 
-.third-box {
+
+  .third-box {
   display: flex;
   align-items: center;
-}
+  }
 
-.shop-image-three {
+
+  .shop-image-three {
   flex: 1;
   /* Make the image take up remaining space */
   max-width: 100%;
@@ -226,18 +290,21 @@ height: auto;
   height: auto;
   margin-right: 20px;
   /* Add spacing between image and text */
-}
+  }
 
-}
 
-.second-box {
+  }
+
+
+  .second-box {
   display: flex;
   /* Use flexbox to make the contents lie side by side */
   align-items: center;
   /* Align items vertically */
-}
+  }
 
-.dine-image-two {
+
+  .dine-image-two {
   flex: 1;
   /* Make the image take up remaining space */
   max-width: 100%;
@@ -245,77 +312,200 @@ height: auto;
   height: auto;
   margin-right: 20px;
   /* Add spacing between image and text */
-}
+  }
 
 
-text-wrapper {
+
+
+  text-wrapper {
   display: flex;
   flex-direction: column;
-}
+  }
 
 
-.first-box-text {
+
+  .first-box-text {
   margin-bottom: 20px;
   /* Add spacing between text elements */
-}
+  }
 
-/* Style for text in second box */
-.second-box-text {
+
+  /* Style for text in second box */
+  .second-box-text {
   margin-bottom: 20px;
   /* Add spacing between text elements */
-}
+  }
 
-.third-box-text {
+
+  .third-box-text {
   margin-bottom: 20px;
-}
+  }
 
-.foot-dine nav ul li {
+
+  .foot-dine nav ul li {
+
 
   margin-left: 10em;
   color: brown;
-}
+  }
 
-.foot-dine {
+
+  .foot-dine {
   display: flex;
   flex-direction: row;
   background-color: azure;
   color: black;
   justify-content: center;
   text-align: center;
+  }
+
+
+  /* Hamburger Button */
+
+
+
+
+
+
+.hidden{
+  display: none;
 }
 
 
+.toggle-button {
+  display: none;
+  position: fixed; /* Fixed position to keep it in place */
+  top: 20px; /* Adjust top spacing as needed */
+  right: 20px; /* Adjust right spacing as needed */
 
-/* Media queries */
-@media (max-width: 900px){
-    .frequently,
-    .main-box,
-    .second-box,
-    .third-box {
-      width: 100%;
+  flex-direction: column;
+  height: 40px;
+  width: 40px;
+  justify-content: space-around;
+  border-color: brown;
+
+  }
+  .nav-menu{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content:flex-end;
+  align-items: center;
+  }
+
+
+
+
+
+
+  .toggle-button .bar {
+  background-color: brown;
+  height: 3px;
+  width: 100%;
+  }
+
+  .modal-content {
+    display: none; /* Initially hide the modal content */
+    z-index: 1000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    color: black;
+}
+
+/* When .hidden class is removed, display the modal content */
+.modal-content:not(.hidden) {
+    display: block;
+}
+
+
+  .button-modal:hover {
+    background-color: brown;
+    color: #fff;
+    border-radius: 20%;
+  }
+
+
+
+
+
+  /* Media queries */
+  @media (max-width: 600px){
+  .frequently,
+  .main-box,
+  .second-box,
+  .third-box {
+  width: 100%;
+  }
+
+
+
+
+  .first-box,
+  .dine-image-one,
+  .shop-image-three,
+  .dine-image-two {
+  margin-right: 0;
+  margin-bottom: 20px;
+  }
+
+
+  .foot-dine nav ul li {
+  margin-left: 0;
+  padding: 1.5em;
+  }
+
+
+
+
+  body {
+  background-color:darkred; /* Change background color for narrow view */
+
+  }
+
+
+
+  .hidden{
+    display: none;
+  }
+
+  .toggle-button {
+    display: block;
+    position: fixed; /* Fixed position to keep it in place */
+    top: 20px; /* Adjust top spacing as needed */
+    right: 20px; /* Adjust right spacing as needed */
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 40px;
+    justify-content: space-around;
+    border-color: brown;
+
     }
 
-    .first-box,
-    .second-box,
-    .third-box {
-      flex-direction: column;
+
+
+    .head-nav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      /* Align items vertically */
+      justify-content: space-between;
+      /* Space items evenly horizontally */
+      background-color: rgb(118, 165, 42);
+      }
+
+
+      a {
+        color: rgb(10, 0, 0);
+        text-decoration: none;
     }
-
-    .first-box,
-    .dine-image-one,
-    .shop-image-three,
-    .dine-image-two {
-      margin-right: 0;
-      margin-bottom: 20px;
-    }
-
-    .foot-dine nav ul li {
-      margin-left: 0;
-      padding: 1.5em;
-    }
-
-
-    body {
-      background-color:darkred; /* Change background color for narrow view */
-
-    }
+    nav ul {
+      display: flex;
+      flex-direction: row;
+      }

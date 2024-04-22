@@ -6,6 +6,8 @@
   <title>home apple fest</title>
   <link rel="stylesheet" type="text/css" href="styles/site.css">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+
+
 </head>
 <body>
     <div class="head-nav">
@@ -15,14 +17,24 @@
                  <!-- Source: https://design-plan/images/apple-harvest-logo.svg-->
 
             </picture>
-            <nav>
-                <ul>
+            <nav class="navham" id="navmenu">
+
+
+                <ul class="nav-menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="dine.html">Dine</a></li>
                     <li><a href="shop.html">Shop</a></li>
                     <li><a href="transportation.html">Transportation</a></li>
                 </ul>
+
             </nav>
+
+            <button class="toggle-button" id="hbutton">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
         </header>
     </div>
  <div class="content-container">
@@ -59,6 +71,17 @@
     </ul>
     <h3>Join Us!</h3>
     <p> Mark your calendars for a weekend filled with apple-themed fun and flavors! Whether you're a local or visiting from afar, the Apple Harvest Festival promises an unforgettable experience for all ages.</p>
+
+    <h2>Do you want to meet new people at the apple harvest festival?</h2>
+    <button class="button-modal" id="mmeet">Click here</button>
+
+    <div class="modal-content hidden" id="modal">
+        <button class="exit" id="eexit">x</button>
+        <h2>MEET UP WITH OTHERS!</h2>
+        <p>join this groupchat and meet new people for the apple harvest festival
+            <a href = "https://chat.whatsapp.com/J4QCf2lO99yL4eQLi87PSu">here</a>
+            </p>
+    </div>
     </div>
 </div>
 
@@ -73,6 +96,12 @@
             </ul>
         </nav>
     </footer>
+
+
+<script src="scripts/jquery-3.7.1.js"></script>
+<script src="scripts/hambugerr.js"></script>
+<script src="scripts/modal.js"></script>
+
 </body>
 </html>
 `
