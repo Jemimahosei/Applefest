@@ -39,9 +39,9 @@ After reviewing similar sites and conducting iterations of card sorting, I decid
 - Transportation
 
 This organization ensures clarity, allowing users to easily navigate to specific information.
- ![card sorting](first.png)
+ ![card sorting](design-plan/images/first.png)
 
- ![card sorting 2](second.png)
+ ![card sorting 2](design-plan/images/second.png)
 ## Visual Theme
 I chose a **Vibrant and Colorful** theme to align with the festival's lively atmosphere. Bold colors and energetic graphics appeal to the youthful nature of the target audience.
 
