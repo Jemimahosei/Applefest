@@ -59,12 +59,12 @@ The subsequent section of the project modified the original design by adding int
 - **Social Meetup Board**: A virtual bulletin board for attendees to connect and socialize.
 
 ### Interactivity Design Ideation
-![modal iterations](modal-iterations.jpeg)
-![hamburger iterations](hamburger-iterations.jpeg)
+![modal iterations](design-plan/modal-iterations.jpeg)
+![hamburger iterations](design-plan/hamburger-iterations.jpeg)
 
 ### Final Interactivity Design Sketches
-- **Modal Design**: ![final modal](modal-final.jpeg)
-- **Hamburger Menu Design**: ![final hamburger](hamburger-final.jpeg)
+- **Modal Design**: ![final modal](design-plan/modal-final.jpeg)
+- **Hamburger Menu Design**: ![final hamburger](design-plan/hamburger-final.jpeg)
 
 ### Interactivity Rationale
 The proposed hamburger menu declutters the interface, enhancing navigation. The modal feature allows users to connect easily, aligning with their goals of engaging in activities and meeting new people.
