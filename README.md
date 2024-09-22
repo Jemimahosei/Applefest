@@ -1,4 +1,5 @@
 # Apple Harvest Festival Website
+[Live website - Applefest](https://jemimahosei.github.io/Applefest/)
 
 ## Overview
 This project involves the development of a website for the Apple Harvest Festival in Ithaca, aimed at enhancing user experience for college students. The initial version provides essential information about the festival, while subsequent modifications introduce interactive features to improve engagement.
